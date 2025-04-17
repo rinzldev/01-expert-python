@@ -7,9 +7,9 @@
 # Extra cheese for any size pizza: +$1
 
 print("Welcome to Python Pizza Deliveries!")
-size = input("What size pizza do you want? S, M, or L ").upper()
-pepperoni = input("Do you want pepperoni? Y or N ").upper()
-extra_cheese = input("Do you want extra cheese? Y or N ").upper()
+size = input("What size pizza do you want? S, M, or L: ").upper()
+pepperoni = input("Do you want pepperoni? Y or N:").upper()
+extra_cheese = input("Do you want extra cheese? Y or N: ").upper()
 bill = 0
 
 if (size == "S"):
